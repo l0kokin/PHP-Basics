@@ -1,0 +1,22 @@
+{
+    "name": "sali/15_autoloading",
+    "autoload": {
+        "psr-4": {
+            "Sali\\15Autoloading\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "l0kokin",
+            "email": "sali.gogishvili1@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "./app"
+        }
+    }
+}
