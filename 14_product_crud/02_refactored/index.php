@@ -1,6 +1,7 @@
 <?php
 
-$pdo = require_once "database.php";
+/** @var $pdo \PDO */
+require_once 'database.php';
 
 $search = $_GET['search'] ?? '';
 if($search){
